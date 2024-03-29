@@ -8,6 +8,9 @@ class CustomerController extends Controller
 {
     public function customers(){
         return view('customers.customer');
+    }
 
+    public function newCustomers(){
+        return view('customers.new');
     }
 }
